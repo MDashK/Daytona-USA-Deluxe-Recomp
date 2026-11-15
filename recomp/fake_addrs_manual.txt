@@ -1,0 +1,4 @@
+# numbers Ghidra printed as addresses that tools/find_fake_addrs.py cannot see
+# (values folded from unrelocated read-only data).  "<func> <value>"
+0041b91c 00564a3d  # DAT_004ecf84 = [0x4ae294] (a counter, 0x564a3d, not a pointer)
+0041bcb3 00564a3d  # same counter reset

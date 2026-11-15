@@ -1,0 +1,25 @@
+# The game: copyrighted, made by the user from their own CD, never published
+game/
+data/
+*.mp3
+
+# Build outputs
+build_host/
+vita/build/
+vita/vpk/
+*.vpk
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+tools/converter/DayConv/bin/
+tools/converter/DayConv/obj/
+tools/converter/publish/
+# made from the game files by tools/converter/make_patch.py
+tools/converter/DayConv/patch.bin
+
+# Logs
+*.log
+daytona_log.txt
+__pycache__/

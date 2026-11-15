@@ -1,0 +1,2 @@
+# FUN_00462bab(poly, colour): poly+4 = flags (bit 1 = half colour), poly+8 = texture
+462bab poly 6000 5 [esp+4]+4:2 [esp+4]+8:2 861050:1

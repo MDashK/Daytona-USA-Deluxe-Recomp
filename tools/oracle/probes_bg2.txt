@@ -1,0 +1,2 @@
+436a31 spr 3000 1 esp:4 [esp+c]:4 [esp+c]+8:16 [esp+8]:8
+4369b4 spr0 3000 1 esp:4 [esp+c]:4 [esp+10]:4

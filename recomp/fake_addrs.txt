@@ -1,0 +1,46 @@
+# globals Ghidra made from plain numbers (tools/find_fake_addrs.py)
+0040d04f 0040d190  # 0x40d190: pBVar2 = (LPBYTE)0x40d190;
+004116db 004116e3  # 0x4116e3: *(undefined4 *)(iVar1 + -4) = 0x4116e3;
+004116db 00411705  # 0x411705: *(undefined4 *)(iVar1 + -0xc) = 0x411705;
+00411a94 00411aa2  # 0x411aa2: *(undefined4 *)(iVar1 + -8) = 0x411aa2;
+00411a94 00411aa7  # 0x411aa7: *(undefined4 *)(puVar2 + -4) = 0x411aa7;
+00411a94 00411abb  # 0x411abb: *(undefined4 *)(puVar2 + -8) = 0x411abb;
+00411d55 00411c84  # 0x411c84: *(undefined4 *)(puVar8 + -0x10) = 0x411c84;
+00411d55 00411ca5  # 0x411ca5: *(undefined4 *)(puVar8 + -0x10) = 0x411ca5;
+00411d55 00411ccf  # 0x411ccf: *(undefined4 *)(puVar8 + -0x14) = 0x411ccf;
+00411d55 00411cf6  # 0x411cf6: *(undefined4 *)(puVar8 + -0x14) = 0x411cf6;
+00411d55 00411d35  # 0x411d35: *(undefined4 *)(puVar8 + -0xc) = 0x411d35;
+00411d55 00411d63  # 0x411d63: *(undefined4 *)(iVar4 + -8) = 0x411d63;
+00411d55 00411d68  # 0x411d68: *(undefined4 *)(puVar7 + -4) = 0x411d68;
+00411d55 00411d90  # 0x411d90: *(undefined4 *)(puVar7 + -0xc) = 0x411d90;
+00411d55 00411da5  # 0x411da5: *(undefined4 *)(puVar8 + -8) = 0x411da5;
+00412c00 00412c30  # 0x412c30: 
+00414831 00414839  # 0x414839: *(undefined4 *)(*(int *)(unaff_EBP + -0x18) + -4) = 0x414839;
+00415830 0041586b  # 0x41586b: 
+0041bcb3 00564a3e  # 0x564a3e: if ((int)DAT_004ecf84 < 0x564a3e) {
+0041bcb3 00600000  # 0x600000: puVar10 = FUN_0041d78b(*local_74,local_74[2],0x600000);
+0041bcb3 00640000  # 0x640000: piVar8 = FUN_0041d86c(iVar2,iVar3,0x640000);
+0041bcb3 00800000  # 0x800000: puVar10 = FUN_0041d78b(*local_70,local_70[2],0x800000);
+0041fda2 0041fe3a  # 0x41fe3a: iVar1 = 0x41fe3a;
+00425afc 00425b60  # 0x425b60: 
+00426be1 00426c3f  # 0x426c3f: 
+0042772d 00427848  # 0x427848: 
+00435fac 00435fb9  # 0x435fb9: *(undefined4 *)(iVar1 + -8) = 0x435fb9;
+0043a14a 0043a26d  # 0x43a26d: uStack00000014 = 0x43a26d;
+00443476 00443402  # 0x443402: *(undefined4 *)(puVar6 + -0x18) = 0x443402;
+00443476 00443428  # 0x443428: *(undefined4 *)(puVar4 + -8) = 0x443428;
+00443476 0044343d  # 0x44343d: *(undefined4 *)(puVar4 + -8) = 0x44343d;
+00443476 00443447  # 0x443447: *(undefined4 *)(puVar5 + -8) = 0x443447;
+00443476 0044345c  # 0x44345c: *(undefined4 *)(puVar4 + -8) = 0x44345c;
+00443476 00443483  # 0x443483: *(undefined4 *)(iVar3 + -8) = 0x443483;
+0045194e 00540000  # DAT_00540000: DAT_00517214 = &DAT_00540000 + *(short *)(DAT_00516d7c + 0xc) * -0x200;
+0045194e 00680000  # DAT_00680000: local_14 = &DAT_00680000 + *(short *)(&DAT_00516d8c + local_c * 0x71) * -0x200;
+0045194e 00580000  # 0x580000: local_14 = (undefined *)(*(short *)(&DAT_00516d8c + local_c * 0x71) * -0x200 + 0x580000);
+00454859 00454977  # 0x454977: uStack00000008 = 0x454977;
+00454859 0045497c  # 0x45497c: uStack00000008 = 0x45497c;
+0045f390 00568ccc  # DAT_00568ccc: DAT_00516d7c[1] = &DAT_00568ccc;
+00464651 004647a4  # 0x4647a4: uStack_118 = 0x4647a4;
+0046481e 0046491b  # 0x46491b: uStack_118 = 0x46491b;
+004a892e 004a893a  # 0x4a893a: *(undefined4 *)(iVar1 + -8) = 0x4a893a;
+004aa7b0 004aa7cd  # 0x4aa7cd: 
+004aa7b0 004aa7e2  # 0x4aa7e2: 

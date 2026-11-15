@@ -1,0 +1,2 @@
+// daytona.rc - the Windows build's icon (the original game's, tools/converter/extract_icon.py)
+1 ICON "../tools/converter/DayConv/app.ico"

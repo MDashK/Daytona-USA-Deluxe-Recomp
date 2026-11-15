@@ -1,0 +1,43 @@
+# hand-written prototype corrections (see RecompExport.java applyFixups)
+# data blobs inside .text (model data that relocations point at)
+remove 00471e28
+remove 00471e48
+remove 00471e68
+remove 00471e88
+remove 00471ea8
+remove 00471ec8
+remove 00471f08
+remove 00473e6c
+remove 00473fdc
+remove 004743d4
+remove 00474730
+remove 00474a04
+remove 004750f0
+remove 00475254
+remove 00475670
+remove 00475800
+remove 00475a78
+remove 00475c08
+remove 00475cf4
+remove 00475f08
+remove 004760a0
+remove 0047645c
+remove 004766ec
+remove 0047678c
+remove 00476b9c
+remove 0047735c
+remove 00477468
+remove 004778b0
+remove 004779c8
+remove 00477c3c
+remove 00477d48
+remove 00477f5c
+remove 004780ec
+remove 00478244
+remove 00486ca0  # int table, not code
+remove 004a6dc0  # c_dfDIJoystick (DIDATAFORMAT), not code
+remove 00479ab0  # pointer table, not code
+
+# returns the shaded RGB555 colour in AX (tail call of FUN_0044a311);
+# as void the 3D name-entry letters and other gouraud flat polys were black
+ret 00461fe7 ushort
